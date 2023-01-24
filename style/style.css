@@ -1,0 +1,144 @@
+#nav-bar{
+    height: 6em;
+}
+
+#navbarNavDropdown{
+    padding-left: 10em !important;
+}
+
+.grey-btn{
+    background-color: #b68c5a;
+    color: white;
+    height: 3em;
+    font-weight: bold;
+}
+
+#practice-area{
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px !important;
+    padding-bottom: 5px;
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-top: 50px;
+}
+
+
+#card-body{
+    width: 300px; 
+    height: 24rem;
+    padding-top: 50px;
+}
+
+#card-body>img{
+    padding: 5% 40%;
+}
+
+#client-carousel-div{
+    height: 500px;
+}
+
+#faq-img{
+    height: 400px;
+}
+
+footer{
+    margin-top: 10em;
+    padding: 50px;
+    width: 100% !important;
+}
+
+.footer-text{
+    color: white;
+}
+
+footer .container .row .col{
+    padding-top: 50px;
+    margin-right: 10px;
+}
+footer .container .row .col  p{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+#mail-txt{
+    height: 50px !important;
+    padding-left: 20px;
+}
+
+#sent-icon{
+    background-color: #b68c5a;;
+    width: 40px;
+}
+
+/*-------------
+ facts 
+ ------------*/
+ .facts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+ }
+
+ .facts .feature-header{
+    margin-top: 80px;
+    margin-bottom: 0px;
+ }
+
+ .facts .paragraph{
+    text-align: left;
+    margin-bottom: 50px;
+ }
+
+ /*------------------
+ fact box 
+ -------------------*/
+ .fact-box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 0.01fr);
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .fact-box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid #000204;
+    border-radius: 8px;
+    width: 240px;
+    height: 230px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    transition: height 2s, width 2s, border-radius 2s;
+    background-color:#b68c5a;
+ }
+
+.fact-box:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #d4d4d4;
+    border: 2px dashed rgb(45, 38, 38);
+}
+ .number{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ .box-para{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 5px;
+ }
